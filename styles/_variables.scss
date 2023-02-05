@@ -1,0 +1,14 @@
+// Colors
+$dark-gray: hsl(0, 0%, 55%);
+$darker-gray: hsl(0, 0%, 41%);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$header-height: 150px;

@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+.creations-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.creation-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@include media-breakpoint-down(md) {
+  .creations-header {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}

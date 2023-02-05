@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+.landing {
+  min-height: 90vh;
+  padding-top: 30vh;
+  background-image: url('./../../../public/assets/images/image-hero-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.banner {
+  position: relative;
+  padding: 30px;
+  border: 1px solid white;
+  overflow: hidden;
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .landing {
+    background-image: url('./../../../public/assets/images/image-hero.jpg');
+  }
+
+  .banner {
+    max-width: 660px;
+
+    h1 {
+      font-size: 65px;
+    }
+  }
+}

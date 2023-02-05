@@ -1,0 +1,27 @@
+{
+  "name": "loopstudios",
+  "homepage": "https://crstngrace.github.io/loopstudios",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "gsap": "^3.11.4",
+    "next": "13.1.2",
+    "next-transpile-modules": "^10.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.2"
+  }
+}
